@@ -1,29 +1,29 @@
 ﻿/* DEFAULTS
 ----------------------------------------------------------*/
 
-body   
+body
 {
     font-size: .80em;
     font-family: Verdana;
     margin: 0px;
     padding: 0px;
     color: #000000;
-   /* IE10 Consumer Preview */ 
+   /* IE10 Consumer Preview */
 background-image: -ms-linear-gradient(top, #FFFFFF 50%, #D40000 180%);
 
-/* Mozilla Firefox */ 
+/* Mozilla Firefox */
 background-image: -moz-linear-gradient(top, #FFFFFF 50%, #D40000 180%);
 
-/* Opera */ 
+/* Opera */
 background-image: -o-linear-gradient(top, #FFFFFF 50%, #D40000 180%);
 
-/* Webkit (Safari/Chrome 10) */ 
+/* Webkit (Safari/Chrome 10) */
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #FFFFFF), color-stop(1.8, #D40000));
 
-/* Webkit (Chrome 11+) */ 
+/* Webkit (Chrome 11+) */
 background-image: -webkit-linear-gradient(top, #FFFFFF 50%, #D40000 180%);
 
-/* W3C Markup, IE10 Release Preview */ 
+/* W3C Markup, IE10 Release Preview */
 background-image: linear-gradient(to bottom, #FFFFFF 50%, #D40000 180%);
 }
 
@@ -53,7 +53,7 @@ p
 }
 
 
-/* HEADINGS   
+/* HEADINGS
 ----------------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6
@@ -94,7 +94,7 @@ h5, h6
     font-size: 1em;
 }
 
-/* this rule styles <h1> and <h2> tags that are the 
+/* this rule styles <h1> and <h2> tags that are the
 first child of the left and right table columns */
 .rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
 {
@@ -102,7 +102,7 @@ first child of the left and right table columns */
 }
 
 
-/* PRIMARY LAYOUT ELEMENTS   
+/* PRIMARY LAYOUT ELEMENTS
 ----------------------------------------------------------*/
 
 .page
@@ -158,7 +158,7 @@ first child of the left and right table columns */
 }
 
 
-/* TAB MENU   
+/* TAB MENU
 ----------------------------------------------------------*/
 
 div.hideSkiplink
@@ -206,7 +206,7 @@ div.menu ul li a:active
     text-decoration: none;
 }
 
-/* FORM ELEMENTS   
+/* FORM ELEMENTS
 ----------------------------------------------------------*/
 
 fieldset
@@ -216,7 +216,7 @@ fieldset
     border: 1px solid #ccc;
 }
 
-fieldset p 
+fieldset p
 {
     margin: 2px 12px 10px 10px;
 }
@@ -226,25 +226,25 @@ fieldset.login label, fieldset.register label, fieldset.changePassword label
     display: block;
 }
 
-fieldset label.inline 
+fieldset label.inline
 {
     display: inline;
 }
 
-legend 
+legend
 {
     font-size: 1.1em;
     font-weight: 600;
     padding: 2px 4px 8px 4px;
 }
 
-input.textEntry 
+input.textEntry
 {
     width: 320px;
     border: 1px solid #ccc;
 }
 
-input.passwordEntry 
+input.passwordEntry
 {
     width: 320px;
     border: 1px solid #ccc;
@@ -255,7 +255,7 @@ div.accountInfo
     width: 42%;
 }
 
-/* MISC  
+/* MISC
 ----------------------------------------------------------*/
 
 .clear
@@ -312,43 +312,48 @@ div.accountInfo
     padding-right: 10px;
 }
 
-    .style1
-        {
-            text-align: center;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-            width: 640px;
-            height: 461px;
-        }
-        .centered
-        {
-            text-align: center;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .centeredAndLarge
-        {
-            text-align: center;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-            font-size: x-large;
-        }
-        .large
-        {
-            font-size: x-large;
-        }
-        .current
-        {
-            color: Maroon;
-        }
-        .whiteBackground
-        {
-            background: white;
-            text-align: center;
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-        }
+.style1
+{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 640px;
+    height: 461px;
+}
+
+.centered
+{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.centeredAndLarge
+{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: x-large;
+}
+
+.large
+{
+    font-size: x-large;
+}
+
+.current
+{
+    color: Maroon;
+}
+
+.whiteBackground
+{
+    background: white;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
